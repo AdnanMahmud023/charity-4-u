@@ -1,3 +1,130 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 79px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #707070;
+    margin: 0;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF5959;
+    padding: 15px 25px;
+    border-radius: 5px;
+
+}
+
+
+#top-banner {
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 307px;
+}
+
+#top-banner p {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 30px;
+}
+
+#donate-today {
+    text-align: center;
+    padding: 150px 320px;
+}
+
+#donate-today p {
+    margin-bottom: 50px;
+}
+
+.amount {
+    display: inline-block;
+    padding: 45px 25px;
+    margin: 0px 11px;
+    margin-bottom: 50px;
+}
+
+#amount-selected {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+#amount-selected h3 {
+    color: #FF5959 !important;
+}
+
+#custom-donation {
+    border: 0px;
+    border-bottom: 1px solid #DADADA;
+    width: 780px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+
+}
+
+#custom-donation::placeholder {
+    color: #B3B3B3;
+    font-size: 16px;
+
+}
+
+#donate-plan {
+    padding: 50px 160px 130px 160px;
+    text-align: center;
+}
+
+#donate-plan p {
+    padding: 0px 400px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+#plan-section {
+    display: flex;
+    text-align: left;
+    padding: 0px 200px;
+}
+
+.plan {
+    padding: 50px 25px;
+    margin: 0px 12px;
+    border-radius: 5px;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#education {
+    background-color: #FFF4D6;
 }
